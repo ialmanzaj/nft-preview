@@ -41,12 +41,7 @@ function App() {
           <p className="mb-6 text-gray-600">
             Paste your encoded tokenURI below or add it as a query parameter
             "code"{" "}
-            <a
-              className="underline text-indigo-600"
-              href="https://nftpreview.0xdev.codes/?code=data:application/json;base64,eyJuYW1lIjogIkEgZGV2ZWxvcGVyIGluIGFuIGVjb21tZXJjZSBzdGFydHVwIGlnbm9yaW5nIHN0YW5kLXVwIG1lZXRpbmdzIHdoaWxlIGxpc3RlbmluZyB0byB0aW0gZmVycmlzIiwgImRlc2NyaXB0aW9uIjogIkp1c3QgQmFuZ2Fsb3JlIFRlY2hCcm8gdGhpbmdzLiIsICJpbWFnZSI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNelV3SWlCb1pXbG5hSFE5SWpNMU1DSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklpQndjbVZ6WlhKMlpVRnpjR1ZqZEZKaGRHbHZQU0o0VFdsdVdVMXBiaUJ0WldWMElqNDhjM1I1YkdVK0xtSmhjMlY3Wm1sc2JEb2pNakV5TVRJeE8yWnZiblF0Wm1GdGFXeDVPa2hsYkhabGRHbGpZU3dnYzJGdWN5MXpaWEpwWmp0bWIyNTBMWE5wZW1VNk1qQndlRHRtYjI1MExYZGxhV2RvZERvM01EQTdkR1Y0ZEMxaGJtTm9iM0k2YzNSaGNuUjlQQzl6ZEhsc1pUNDhjbVZqZENCbWFXeHNQU0lqTURBd0lpQjNhV1IwYUQwaU1UQXdKU0lnYUdWcFoyaDBQU0l4TURBbElpQXZQanh6ZG1jZ2VHMXNibk05SjJoMGRIQTZMeTkzZDNjdWR6TXViM0puTHpJd01EQXZjM1puSnlCM2FXUjBhRDBuTXpVd0p5Qm9aV2xuYUhROUp6TTFNQ2MrUEdSbFpuTStQR3hwYm1WaGNrZHlZV1JwWlc1MElHbGtQU2RuTVNjZ1ozSmhaR2xsYm5SVmJtbDBjejBuZFhObGNsTndZV05sVDI1VmMyVW5JSGd4UFNjdE9TNHhOU1VuSUhreFBTY3hOUzQ0TlNVbklIZ3lQU2N4TURrdU1UVWxKeUI1TWowbk9EUXVNVFVsSno0OGMzUnZjQ0J6ZEc5d0xXTnZiRzl5UFNjallURmpOR1prSnk4K1BITjBiM0FnYjJabWMyVjBQU2N4SnlCemRHOXdMV052Ykc5eVBTY2pZekpsT1daaUp5OCtQQzlzYVc1bFlYSkhjbUZrYVdWdWRENDhMMlJsWm5NK1BISmxZM1FnZDJsa2RHZzlKekV3TUNVbklHaGxhV2RvZEQwbk1UQXdKU2NnWm1sc2JEMG5kWEpzS0NObk1Ta25MejQ4TDNOMlp6NDhkR1Y0ZENCamJHRnpjejBpWW1GelpTSWdlRzFzT25Od1lXTmxQU0p3Y21WelpYSjJaU0lnZVQwaU1qQTBMamN4TlNJZ2VEMGlNalF1TWpnMklqNUJJR1JsZG1Wc2IzQmxjand2ZEdWNGRENDhkR1Y0ZENCamJHRnpjejBpWW1GelpTSWdlRzFzT25Od1lXTmxQU0p3Y21WelpYSjJaU0lnZVQwaU1qUXhMamN4TlNJZ2VEMGlNalF1TWpnMklqNXBiaUJoSUdGdUlHVmpiMjF0WlhKalpTQnpkR0Z5ZEhWd1BDOTBaWGgwUGp4MFpYaDBJR05zWVhOelBTSmlZWE5sSWlCNGJXdzZjM0JoWTJVOUluQnlaWE5sY25abElpQjVQU0l5TnpraUlIZzlJakkwTGpJNU55SSthV2R1YjNKcGJtY2djM1JoYm1RdGRYQWdiV1ZsZEdsdVozTThMM1JsZUhRK1BIUmxlSFFnWTJ4aGMzTTlJbUpoYzJVaUlIaHRiRHB6Y0dGalpUMGljSEpsYzJWeWRtVWlJSGs5SWpNeE5DNDNNVFVpSUhnOUlqSTBMakk0TmlJK2QyaHBiR1VnYkdsemRHVnVhVzVuSUhSdklIUnBiU0JtWlhKeWFYTThMM1JsZUhRK1BDOXpkbWMrIn0="
-            >
-              example
-            </a>
+          
           </p>
           <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
             <label
@@ -86,24 +81,6 @@ function App() {
               alt="NFT preview"
             />
           )}
-        </div>
-        <div className="text-center my-2">
-          Build with <span role="img">❤️</span> by{" "}
-          <a
-            className="underline text-indigo-700"
-            target="__blank"
-            href="https://twitter.com/0xBhaisaab"
-          >
-            0xBhaisaab.
-          </a>{" "}
-          Check out the code{" "}
-          <a
-            className="underline text-indigo-700"
-            target="__blank"
-            href="https://github.com/Utkarshbhimte/nft-preview"
-          >
-            here
-          </a>
         </div>
       </div>
     </div>
